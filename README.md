@@ -133,9 +133,11 @@ Notes
 <img src="/src/assets/seventheen.png" width="700" />
 
 
-Mobile Screenshots<br>
+
+
+Mobile Screenshots<br><br>
 Note: due to the limitation of the mobile which can not take screenshot from the entire page, the app screnshots are not been seen completely. but there is a deployed link and you can watch and try it in both mobile and computer devices to ensure yourself the responsive version for mobile.
-<br>
+<br><br>
 <img src="/src/assets/eighteen.jpeg" width="300" />
 <img src="/src/assets/ninetheen.jpeg" width="300" />
 <img src="/src/assets/twenty.jpeg" width="300" />
