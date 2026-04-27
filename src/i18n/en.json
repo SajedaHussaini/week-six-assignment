@@ -1,0 +1,253 @@
+ {
+  "appName": "Goal Tracker",
+
+  "dashboard": "Dashboard",
+  "allGoals": "All Goals",
+  "newGoal": "New Goal",
+  "archive": "Archive",
+  "calendar": "Calendar",
+  "categories": "Categories",
+  "settings": "Settings",
+
+  "login": "Login",
+  "logout": "Logout",
+  "loginToDashboard": "Login to Dashboard",
+
+  "fullName": "Full Name",
+  "email": "Email",
+  "password": "Password",
+  "rememberme": "Remember me",
+
+  "profile": "Profile",
+  "welcome": "Welcome",
+
+  "search": "Search...",
+  "language": "Language",
+
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+
+  "notifications": "Notifications",
+  "markAsRead": "Mark as read",
+  "noNotifications": "No notifications",
+
+  "overallCompletion": "Overall Completion",
+  "completedGoals": "Completed Goals",
+  "currentStreak": "Current Streak",
+  "totalXp": "Total XP",
+
+  "activeGoals": "Active Goals",
+  "recentlyCompleted": "Recently Completed",
+  "viewArchive": "View Archive",
+  "noActiveGoals": "No active goals.",
+
+  "goalArchive": "Archived Goals",
+  "noArchivedGoals": "No archived goals.",
+
+  "goalDetails": "Goal Details",
+  "status": "Status",
+
+  "health": "Health",
+  "study": "Study",
+  "work": "Work",
+  "personal": "Personal",
+  "financial": "Financial",
+  "hobby": "Hobby",
+
+  "daily": "Daily",
+  "count": "Count-based",
+  "time": "Time-based",
+
+  "noGoals": "No goals found.",
+
+  "addGoal": "Add Goal",
+  "editGoal": "Edit Goal",
+  "deleteGoal": "Delete Goal",
+
+  "confirmDeleteGoal": "Are you sure you want to delete this goal?",
+
+  "newLog": "Log Progress",
+  "addProgress": "Add Progress",
+
+  "pause": "Pause",
+  "resume": "Resume",
+  "markComplete": "Mark as Completed",
+
+  "viewDetails": "View Details",
+  "edit": "Edit",
+  "delete": "Delete",
+
+ "title": "Title",
+  "goalType": "Goal Type",
+  "target": "Target",
+  "current": "Current",
+
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "writeSomethingAboutYourGoal": "Write something about your goal...",
+
+  "color": "Color",
+  "notes": "Notes",
+
+  "save": "Save",
+  "close": "Close",
+  "createGoal": "Create Goal",
+  "cancel": "Cancel",
+
+  "livePreview": "Live Preview",
+  "yourGoalTitle": "Your goal title...",
+  "setupCompleted": "setup completed",
+
+  "goalScore": "Goal Score",
+  "type": "Type",
+  "strongGoalSetup": "🔥 Strong goal setup",
+
+  "improveYourGoalDetails": "⚠️ Improve your goal details",
+  "smartTips": "💡Smart Tips ",
+  "addAClearAndSpecificTitle": "Add a clear and specific title.",
+
+  "addATargetToMakeYourGoalMeasurable": "🎯 Add a target to make your goal measurable.",
+  "dailyGoalsWorkBestWithConsistency": "🔁 Daily goals work best with consistency.",
+  "trackYourHabitsDailyForBetterResults": "💪 Track your habits daily for better results.",
+
+  "yourGoalIsWellStructured": "🚀 Your goal is well structured!",
+
+  "required": "This field is required",
+  "invalidNumber": "Must be a valid number",
+  "minValue": "Must be at least 1",
+
+  "dateInvalid": "End date cannot be before start date",
+  "chooseDate": "Choose date",
+  "progressLog": "Progress History",
+  "noLogs": "No logs yet.",
+
+  "amount": "Amount",
+  "date": "Date",
+
+  "perCategoryStats": "Per-Category Stats",
+  "activeCount": "Active",
+  "completedCount": "Completed",
+  "categoryProgress": "Category Progress",
+
+  "theme": "Theme",
+
+  "exportGoals": "Export Goals",
+
+  "pageNotFound": "Page not found",
+  "backHome": "Back Home",
+  "loadingDashboard": "Loading Dashboard...",
+
+  "goalTracker:Dashboard": "Goal Tracker: Dashboard",
+  "trackYourProgressStayConsistentAndAchieveYourGoals": "Track your progress, stay consistent, and achieve your goals",
+  "noCompletedGoalsYet": "No completed goals yet",
+
+  "createNewGoal": "Create New Goal",
+  "buildHabitsTrackProgressAndBecomeUnstoppable": "Build habits, track progress, and become unstoppable.",
+  "fillOutTheFormToDefineYourObjective": "Fill out the form to define your objective.",
+
+  "saveChanges": "Save Changes",
+  "trackYourActivityAndStayConsistentEveryDay": "Track your activity and stay consistent every day.",
+  "todayFocus": "Today Focus",
+  "noGoalsForToday": "No goals for today",
+
+  "trackManageAndCompleteYourPersonalGoalsEfficiently": "Track, manage and complete your personal goals efficiently",
+  "export": "EXPORT",
+  "exportJson": "Export JSON",
+  "exportCsv": "Export CSV",
+
+  "averageProgress": "Average Progress",
+  "filter&Sorting": "Filter & Sorting",
+  "all": "All",
+
+  "active": "Active",
+  "completed": "Completed",
+  "paused": "Paused",
+
+  "searchByTitle": "Search by title",
+  "searchGoalByTitle": "search goal by title...",
+  
+  "sortBy": "Sort by",
+  "newest": "Newest",
+  "progress": "Progress %",
+
+  "category": "Category",
+  "goals": "Goals",
+  "noGoalFound": "No goal found",
+
+  "goaldetails": "Goal details",
+  "areYouSureYouWantToDeleteThisGoal": "Are you sure you want to delete this goal?",
+  "note" : "Note",
+
+  "complete": "Complete",
+  "details": "Details",
+  "archiveGoals": "Archive Goals",
+
+  "manageYourCompletedAndDeletedGoalsHere": "Manage your completed and deleted goals here.",
+  "deleted": "Deleted",
+  "searchArchivedGoal": "Search archived goal",
+  
+  "newestArchived": "Newest archived",
+  "oldestArchived": "Oldest archived",
+  "thereIsNoCompletedGoals" :"There is no completed goals.",
+
+  "deletedGoals" : "Deleted Goals",
+  "thereIsNoDeletedGoal": "There is no deleted goal.",
+  "restoreToActive" : "Restore to Active",
+
+  "undoDelete" : "Undo Delete",
+  "trackYourGoalsBasedOnCategories": "Track your goals based on categories",
+  "progress:HighToLow": "Progress: High To Low",
+
+  "progress:LowToHigh": "Progress: Low To High",
+  "goals:MostFirst": "Goals: Most First",
+  "byName": "By Name",
+
+  "allCategories": "All Categories",
+  "noCategoryFound": "No Category Found",
+  "progress1": "Progress",
+
+  "searchCategory": "Search Category",
+  "back": "Back",
+  "created": "Created",
+
+  "progressHistory": "Progress History",
+  "goalNotFound": "Goal not found",
+  "searchResultsFor": "Search results for",
+  "noResultsFound": "No results found",
+  "loadingGoalTrackerPleaseWait": "Loading Goal Tracker,please wait...",
+  "trackYourGoalsAndStayConsistent": "Track your goals and stay consistent",
+  
+
+
+  "validation": {
+    "required": "This field is required.",
+    "min": "Must be at least ${min}",
+    "max": "Must be at most ${max}",
+    "number": "Must be a number",
+    "date": "Invalid date",
+    "email": "Invalid email",
+    "positive": "Must be positive",
+    "endDateAfterStart": "End date cannot be before start date",
+    "titleIsRequired": "Title is required",
+  "categoryIsRequired": "Category is required",
+  "goalTypeIsRequired": "Goal type is required",
+
+  "targetMustBeAPositiveNumber": "Target must be a positive number",
+  "startDateIsRequired": "Start date is required",
+  "endDateCannotBeBeforeStartDate": "End date cannot be before start date"
+    
+  },
+
+  "loginValidation":{
+    "pleaseEnterYourFullName": "Please enter your full name.",
+    "fullNameMustNeAtLeast4Characters": "Full name must be at least 4 characters.",
+
+    "emailIsRequired": "Email is required.",
+    "pleaseEnteraValidEmail": "Please enter a valid email.",
+
+    "passwordIsRequired": "Password is required.",
+    "passwordMustBeAtLeast6Characters": "Password must be at least 6 characters."
+  }
+
+}
+

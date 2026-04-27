@@ -1,0 +1,280 @@
+{
+  "appName": "پیگیر هدف",
+  "dashboard": "داشبورد",
+  "allGoals": "همه اهداف",
+
+  "newGoal": "هدف جدید",
+  "archive": "آرشیو",
+  "calendar": "تقویم",
+
+  "categories": "دسته\u200cبندی‌ها",
+  "settings": "تنظیمات",
+  "login": "ورود",
+
+  "logout": "خروج",
+  "loginToDashboard": "ورود به داشبورد",
+  "username": "نام کاربری",
+
+  "fullName": "نام کامل",
+  "email": "ایمیل",
+  "password": "رمز عبور",
+
+  "rememberme": "مرا به خاطر بسپار",
+  "profile": "پروفایل",
+  "welcome": "خوش آمدید",
+
+  "search": "جستجو...",
+  "language": "زبان",
+  "darkMode": "حالت تیره",
+
+  "lightMode": "حالت روشن",
+  "notifications": "اعلان‌ها",
+  "markAsRead": "خوانده شد",
+
+  "noNotifications": "اعلانی وجود ندارد",
+  "overallCompletion": "درصد تکمیل کلی",
+  "completedGoals": "اهداف کامل‌شده",
+
+  "currentStreak": "رکورد متوالی فعلی",
+  "totalXp": "امتیاز کلی",
+  "activeGoals": "اهداف فعال",
+
+  "recentlyCompleted": "تازه کامل شده‌ها",
+  "viewArchive": "مشاهده آرشیو",
+  "noActiveGoals": "هیچ هدف فعالی وجود ندارد.",
+
+  "goalArchive": "آرشیو اهداف",
+  "noArchivedGoals": "هدفی در آرشیو وجود ندارد.",
+  "goalDetails": "جزییات هدف",
+
+  "status": "وضعیت",
+ 
+  "health": "سلامتی",
+  "study": "تحصیلی",
+
+  "work": "شغلی",
+  "personal": "شخصی",
+  "daily": "روزانه",
+
+  "count": "شمارشی",
+  "time": "زمانی",
+  
+
+  "noGoals": "هیچ هدفی یافت نشد.",
+  "addGoal": "افزودن هدف",
+  "editGoal": "ویرایش هدف",
+
+  "deleteGoal": "حذف هدف",
+  "confirmDeleteGoal": "آیا مطمئن هستید می‌خواهید این هدف را حذف کنید؟",
+  "newLog": "ثبت پیشرفت",
+
+  "addProgress": "افزودن پیشرفت",
+  "pause": "توقف",
+  "resume": "ادامه",
+
+  "markComplete": "تکمیل",
+  "viewDetails": "مشاهده جزییات",
+  "edit": "ویرایش",
+
+  "title": "عنوان",
+  "delete": "حذف",
+ 
+  
+  "goalType": "نوع هدف",
+  "current": "مقدار فعلی",
+
+  "startDate": "تاریخ شروع",
+  "endDate": "تاریخ پایان",
+  "color": "رنگ",
+
+  "notes": "یادداشت",
+  "save": "ذخیره",
+  "close": "بستن",
+
+  "cancel": "انصراف",
+  "required": "پرکردن این فیلد الزامی است",
+  "invalidNumber": "باید عدد باشد",
+
+  "minValue": "حداقل مقدار ۱",
+  "dateInvalid": "تاریخ پایان نمی‌تواند از تاریخ شروع کمتر باشد",
+  "chooseDate": "انتخاب تاریخ",
+
+  "sort": "مرتب‌سازی",
+  
+  "progressPercent": "درصد پیشرفت",
+
+  "categorySort": "دسته‌بندی",
+  "filter": "فیلتر",
+  
+
+  "activeTab": "فعال",
+  "completedTab": "کامل‌شده",
+  "pausedTab": "متوقف",
+
+  "progressLog": "تاریخچه پیشرفت",
+  "noLogs": "هنوز پیشرفتی ثبت نشده است.",
+  "amount": "مقدار",
+
+  "date": "تاریخ",
+  "perCategoryStats": "آمار بر اساس دسته‌بندی",
+  "activeCount": "فعال",
+
+  "completedCount": "کامل‌شده",
+  "categoryProgress": "پیشرفت دسته‌بندی",
+  "theme": "تم",
+
+  "exportGoals": "خروجی اهداف",
+  
+
+  "pageNotFound": "صفحه پیدا نشد",
+  "backHome": "بازگشت به خانه",
+  "loadingDashboard":"در حال بارگذاری داشبورد...",
+
+  "goalTracker:Dashboard": "پیگیر هدف: داشبورد",
+  "trackYourProgressStayConsistentAndAchieveYourGoals": "پیشرفتت را پیگیری کن، استمرار داشته باش، و به هدف‌هایت برس",
+  "noCompletedGoalsYet": "هنوز هدفی تکمیل نشده است.",
+
+  "createNewGoal": "هدف جدید بساز",
+    "createGoal": "هدف بساز",
+
+    "buildHabitsTrackProgressAndBecomeUnstoppable": "عادت هارا بساز، پیشرفتت را دنبال کن، و  توقف ناپذیر شو.",
+    "fillOutTheFormToDefineYourObjective" :"فرم را پر کن تا هدفت را مشخص کنی.",
+    "livePreview": "پیش‌ نمایش زنده",
+
+    "yourGoalTitle": "عنوان هدف شما",
+    "setupCompleted": "تکمیل شده",  
+
+    "type": "نوع",
+    "target": "هدف (عددی)",
+    "financial": "مالی",
+
+    "hobby": "سرگرمی",
+    "strongGoalSetup": "🔥تنظیم هدف بسیار خوب است.",
+    "improveYourGoalDetails": "⚠️جزئیات هدف خود را بهتر کنید.",
+
+  
+    "smartTips": "💡نکات هوشمند",
+    "addAClearAndSpecificTitle": "یک عنوان واضح و مشخص اضافه کنید.",
+    "addATargetToMakeYourGoalMeasurable": "🎯برای قابل اندازه‌ گیری شدن، یک هدف عددی تعیین کنید.",
+
+    "dailyGoalsWorkBestWithConsistency": "🔁هدف‌های روزانه با تداوم بهتر نتیجه می‌دهند.",
+    "trackYourHabitsDailyForBetterResults": "💪برای نتیجه بهتر، عادت‌های خود را روزانه پیگیری کنید. ",
+    "yourGoalIsWellStructured": "هدف شما به‌خوبی ساختاربندی شده است.",
+
+    "writeSomethingAboutYourGoal": "در مورد هدف تان چیزی بنویسید.",
+    "goalScore" : "نمره هدف",
+    "trackYourActivityAndStayConsistentEveryDay": "فعالیت تان را دنبال کنید و هر روز ثابت قدم بمانید.",
+    "todayFocus": "تمرکز امروز",
+    "noGoalsForToday": "برای امروز هیچ هدفی نیست.",
+
+    "trackManageAndCompleteYourPersonalGoalsEfficiently": "هدف هایت را بطور موثر دنبال کن، مدیریت کن، و تکمیل کن.",
+  "export": "استخراج کردن",
+  "exportJson": "استخراج کردن JSON",
+  "exportCsv": "استخراج کردن CSV",
+
+  "averageProgress": "میانگین پیشرفت",
+  "filter&Sorting": "فیلتر و مرتب سازی",
+  "all": "همه",
+  "active": "فعال",
+  
+   "completed": "کامل‌شده",
+  "paused": "متوقف",
+
+  "searchByTitle": "جستجو برای اساس عنوان",
+  "searchGoalByTitle": "جستجو کردن عنوان هدف",
+  
+  "sortBy": "مرتب سازی براساس",
+  "newest": "جدیدترین",
+  "progress": "پیشرفت٪",
+
+  "category": "دسته بندی",
+  "goals": "اهداف",
+  "noGoalFound": "هدفی پیدا نشد",
+
+  "goaldetails": "جزئیات هدف",
+  "areYouSureYouWantToDeleteThisGoal": "آیا مطمئن هستید که میخواهید این هدف را حذف کنید؟",
+   "note": "یادداشت",
+   "complete": "تکمیل",
+   "details": "جزئیات",
+
+   "archiveGoals": "هدف های بایگانی شده",
+
+  "manageYourCompletedAndDeletedGoalsHere": "هدف های حذف شده و تکمیل شده خود را اینجا مدیریت کنید.",
+  "deleted": "حذف شده",
+  "searchArchivedGoal": "سرچ کردن هدف بایگانی شده",
+  
+  "newestArchived": "جدید ترین بایگانی",
+  "oldestArchived": "قدیمی ترین بایگانی",
+  "thereIsNoCompletedGoals" :"اینجا هیچ هدف تکمیل شده نیست.",
+
+  "deletedGoals" : "هدف های حذف شده",
+  "thereIsNoDeletedGoal": "اینجا هیچ هدف حذف شده نیست.",
+  "restoreToActive" : "باز گرداندن به فعال",
+
+  "undoDelete" : "بازگرداندن حذف",
+   "trackYourGoalsBasedOnCategories": "هدف هایت را بر اساس دسته‌بندی دنبال کن.",
+  "progress:HighToLow": "پیشرفت: زیاد به کم",
+
+  "progress:LowToHigh": "پیشرفت: کم به زیاد",
+  "goals:MostFirst": "اهداف: بیشترین اول",
+  "byName": "بر اساس اسم",
+
+  "allCategories": "همه دسته بندی ها",
+  "noCategoryFound": "هیج دسته بندی پیدا نشد.",
+  "progress1": "پیشرفت",
+
+  "searchCategory": "جستجو دسته بندی",
+  "back": "برگشت",
+  "created": "ایجاد شده",
+
+  "progressHistory": "تاریخچه پیشرفت",
+  "goalNotFound": "هدف پیدا نشد",
+  "saveChanges": "ذخیره کردن تغییرات",
+ 
+  "searchResultsFor": "جستجوی نتایج برای",
+  "noResultsFound": "هیچ نتیجه پیدا نشد.",
+  "loadingGoalTrackerPleaseWait": "در حال بارگیری پیگیر هدف، لطفا منتظر بمانید...",
+  "trackYourGoalsAndStayConsistent": "اهداف خود را دنبال کنید و مداوم بمانید",
+
+
+
+
+  "validation": {
+    "required": "این فیلد الزامی است.",
+    "min": "باید حداقل ${min} باشد",
+    "max": "باید حداکثر ${max} باشد",
+
+    "number": "باید عدد باشد",
+    "date": "تاریخ نامعتبر",
+    "email": "ایمیل نامعتبر",
+
+    "positive": "باید مثبت باشد",
+    "endDateAfterStart": "تاریخ پایان نمی‌تواند قبل از تاریخ شروع باشد",
+    "titleIsRequired": "عنوان الزامی است.",
+
+    "categoryIsRequired": "دسته بندی الزامی است.",
+    "goalTypeIsRequired": "نوع هدف الزامی است.",
+    "targetMustBeAPositiveNumber": "هدف باید عدد مثبت باشد.",
+
+    "startDateIsRequired": "تاریخ شروع الزامی است.",
+    "endDateCannotBeBeforeStartDate": "تاریخ پایان نمی‌تواند قبل از تاریخ شروع باشد‌.",
+    "saveChanges" : "ذخیره کردن تغییرات"
+
+    
+    
+
+  },
+
+  "loginValidation":{
+    "pleaseEnterYourFullName": "لطفاً نام کامل خود را وارد کنید.",
+    "fullNameMustNeAtLeast4Characters": "نام کامل باید حداقل ۴ کاراکتر باشد.",
+
+    "emailIsRequired": "ایمیل الزامی است.",
+    "pleaseEnteraValidEmail": "لطفاً یک ایمیل معتبر وارد کنید.",
+
+    "passwordIsRequired": "رمز عبور الزامی است.",
+    "passwordMustBeAtLeast6Characters": "رمز عبور باید حداقل ۶ کاراکتر باشد."
+
+  }
+
+}
