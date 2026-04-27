@@ -93,7 +93,7 @@ Technologies Used
 📁 Project Structure
 
 src/
- ├──api              # 
+ ├──api              # fake backend (using localStorage)
  ├── components/     # Reusable UI components
  ├── pages/          # Main application pages
  ├── context/        # Global state management
@@ -112,5 +112,22 @@ Notes
 - All features are implemented with scalability and readability in mind
 
 
-Screenshot
+📸Screenshots
+
 <img src="/src/assets/one.png" width="700" />
+<img src="/src/assets/two.png" width="700" />
+<img src="/src/assets/three.png" width="700" />
+<img src="/src/assets/four.png" width="700" />
+<img src="/src/assets/five.png" width="700" />
+<img src="/src/assets/six.png" width="700" />
+<img src="/src/assets/seven.png" width="700" />
+<img src="/src/assets/eight.png" width="700" />
+<img src="/src/assets/nine.png" width="700" />
+<img src="/src/assets/ten.png" width="700" />
+<img src="/src/assets/eleven.png" width="700" />
+<img src="/src/assets/twelve.png" width="700" />
+<img src="/src/assets/thirtheen.png" width="700" />
+<img src="/src/assets/fourtheen.png" width="700" />
+<img src="/src/assets/fiftheen.png" width="700" />
+<img src="/src/assets/sixtheen.png" width="700" />
+<img src="/src/assets/seventheen.png" width="700" />
