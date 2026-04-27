@@ -135,7 +135,7 @@ Notes
 
 
 
-Mobile Screenshots<br><br>
+📸Mobile Screenshots<br><br>
 Note: due to the limitation of the mobile which can not take screenshot from the entire page, the app screnshots are not been seen completely. but there is a deployed link and you can watch and try it in both mobile and computer devices to ensure yourself the responsive version for mobile.
 <br><br>
 <img src="/src/assets/eighteen.jpeg" width="300" />
@@ -145,5 +145,6 @@ Note: due to the limitation of the mobile which can not take screenshot from the
 <img src="/src/assets/twentyTwo.jpeg" width="300" />
 <img src="/src/assets/twentyThree.jpeg" width="300" />
 <img src="/src/assets/twentyFour.jpeg" width="300" />
-<img src="/src/assets/twentyFive.jepg" width="300" />
+<img src="/src/assets/twentyFive.jpeg" width="300" />
+<!-- <img src="/src/assets/twentyFive.jepg" width="300" /> -->
 <img src="/src/assets/twentySix.jpeg" width="300" />
