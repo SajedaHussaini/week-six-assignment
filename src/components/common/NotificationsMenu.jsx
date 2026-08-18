@@ -19,25 +19,30 @@ import {
 import { LocaleContext } from "../../context/LocaleContext";
 import { formatDate } from "../../utils/date";
 
-
 export default function NotificationsMenu() {
   const { t } = useContext(LocaleContext);
   const navigate = useNavigate();
 
   const [anchorEl, setAnchorEl] = useState(null);
-  const [notifications, setNotifications] = useState([]);
 
-  const load = () => setNotifications(getNotifications());
+  // Read the initial notifications when the state is created
+  const [notifications, setNotifications] = useState(() =>
+    getNotifications()
+  );
+
+  const load = () => {
+    setNotifications(getNotifications());
+  };
 
   useEffect(() => {
-    load();
     window.addEventListener("notification_update", load);
 
-    return () =>
+    return () => {
       window.removeEventListener("notification_update", load);
+    };
   }, []);
 
-  const unreadCount = notifications.filter(n => !n.read).length;
+  const unreadCount = notifications.filter((n) => !n.read).length;
 
   const handleOpen = (e) => {
     setAnchorEl(e.currentTarget);
@@ -51,16 +56,16 @@ export default function NotificationsMenu() {
   };
 
   const handleNavigate = (n) => {
-  console.log("CLICKED NOTIF:", n);
+    console.log("CLICKED NOTIF:", n);
 
-  if (n.route) {
-    navigate(n.route);
-  } else if (n.goalId) {
-    navigate(`/goals/${n.goalId}`);
-  }
+    if (n.route) {
+      navigate(n.route);
+    } else if (n.goalId) {
+      navigate(`/goals/${n.goalId}`);
+    }
 
-  setAnchorEl(null);
-};
+    setAnchorEl(null);
+  };
 
   return (
     <>
@@ -89,7 +94,7 @@ export default function NotificationsMenu() {
             {t("noNotifications") || "No notifications"}
           </MenuItem>
         ) : (
-          notifications.slice(0, 5).map(n => (
+          notifications.slice(0, 5).map((n) => (
             <MenuItem
               key={n.id}
               selected={!n.read}
@@ -99,6 +104,7 @@ export default function NotificationsMenu() {
                 primary={n.text}
                 secondary={formatDate(n.date)}
               />
+
               <IconButton
                 size="small"
                 onClick={(e) => {

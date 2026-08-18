@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext } from "react";
 import { InputBase, Paper, IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { useLocation } from "react-router-dom";
@@ -8,14 +8,10 @@ export default function SearchBar({ onSearch, autoFocus = false }) {
   const { t } = useContext(LocaleContext);
   const location = useLocation();
 
-  const [search, setSearch] = useState("");
-
-  // sync with URL (?q=...)
-  useEffect(() => {
+  const [search, setSearch] = useState(() => {
     const params = new URLSearchParams(location.search);
-    const q = params.get("q") || "";
-    setSearch(q);
-  }, [location.search]);
+    return params.get("q") || "";
+  });
 
   const handleChange = (e) => {
     setSearch(e.target.value);
@@ -23,12 +19,18 @@ export default function SearchBar({ onSearch, autoFocus = false }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (onSearch) onSearch(search, "submit"); 
+
+    if (onSearch) {
+      onSearch(search, "submit");
+    }
   };
 
   const handleClear = () => {
     setSearch("");
-    if (onSearch) onSearch("", "clear"); 
+
+    if (onSearch) {
+      onSearch("", "clear");
+    }
   };
 
   return (

@@ -14,7 +14,7 @@ import { createNotification } from "../api/notifications";
 import { useNotification } from "../context/NotificationContext";
 
 export default function GoalCreate() {
-  const { setGoals, goals } = useContext(GoalContext);
+  const { setGoals } = useContext(GoalContext);
   const navigate = useNavigate();
   const { t } = useContext(LocaleContext);
   const { showNotification } = useNotification();

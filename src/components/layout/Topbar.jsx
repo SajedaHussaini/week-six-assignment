@@ -87,7 +87,7 @@ export default function Topbar({ onMenuClick }) {
         <Toolbar
           sx={{
             display: "grid",
-            gridTemplateColumns: "auto 1fr auto",
+            // gridTemplateColumns: "auto 1fr auto",
             alignItems: "center",
             px: { xs: 1, sm: 2 },
             minHeight: { xs: 52, sm: 64 },
@@ -129,7 +129,8 @@ export default function Topbar({ onMenuClick }) {
 
           {/* CENTER */}
           {!isMobile ? (
-            <Box sx={{ flex: 1, mx: 2, maxWidth: 500, mx: "auto" }}>
+            // <Box sx={{ flex: 1, mx: 2, maxWidth: 500, mx: "auto" }}>
+            <Box sx={{ flex: 1, maxWidth: 500, mx: "auto" }}>
               <SearchBar onSearch={handleSearch} />
             </Box>
           ) : (

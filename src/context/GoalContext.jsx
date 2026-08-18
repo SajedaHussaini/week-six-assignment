@@ -1,81 +1,60 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useEffect, useMemo, useState } from "react";
 import { getGoals, saveGoals } from "../api/goal";
-import { getUserStats, saveUserStats } from "../api/user";
+import { saveUserStats } from "../api/user";
 import { calculateXpTotal } from "../utils/xp";
 import { calculateStreak } from "../utils/streak";
 
 export const GoalContext = createContext();
 
 export function GoalsProvider({ children }) {
-  const [goals, setGoals] = useState([]);
-  const [isHydrated, setIsHydrated] = useState(false);
-  const [userStats, setUserStats] = useState({
-    xpTotal: 0,
-    streak: 0,
-    completedCount: 0
+  // LOAD GOALS DIRECTLY AS INITIAL STATE
+  const [goals, setGoals] = useState(() => {
+    const storedGoals = getGoals();
+
+    return Array.isArray(storedGoals) ? storedGoals : [];
   });
 
-  // LOAD FROM LOCALSTORAGE
-  useEffect(() => {
-    const storedGoals = getGoals();
-    const storedStats = getUserStats();
-
-    if (Array.isArray(storedGoals)) {
-      setGoals(storedGoals);
-    }
-
-    if (storedStats) {
-      setUserStats(storedStats);
-    }
-    setIsHydrated(true);
-  }, []);
-
-  // SAVE GOALS TO STORAGE
-  useEffect(() => {
-    if (!isHydrated) return;
-    saveGoals(goals);
-  }, [goals, isHydrated]);
-
-  // CALCULATE XP + STREAK
-  useEffect(() => {
-    if (!Array.isArray(goals)) return;
-
-    // XP
+  // CALCULATE USER STATS FROM GOALS
+  const userStats = useMemo(() => {
     const xpTotal = calculateXpTotal(goals);
 
-    // collect all logs
     let allLogs = [];
-    goals.forEach(g => {
+
+    goals.forEach((g) => {
       if (Array.isArray(g.logs)) {
         allLogs = [...allLogs, ...g.logs];
       }
     });
 
-    // STREAK
     const streak = calculateStreak(allLogs);
 
-    // COMPLETED COUNT
     const completedCount = goals.filter(
-      g => g.status === "completed"
+      (g) => g.status === "completed"
     ).length;
 
-    const newStats = {
+    return {
       xpTotal,
       streak,
       completedCount
     };
-
-    setUserStats(newStats);
-    saveUserStats(newStats);
   }, [goals]);
+
+  // SAVE GOALS TO LOCAL STORAGE
+  useEffect(() => {
+    saveGoals(goals);
+  }, [goals]);
+
+  // SAVE USER STATS TO LOCAL STORAGE
+  useEffect(() => {
+    saveUserStats(userStats);
+  }, [userStats]);
 
   return (
     <GoalContext.Provider
       value={{
         goals,
         setGoals,
-        userStats,
-        setUserStats
+        userStats
       }}
     >
       {children}

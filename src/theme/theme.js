@@ -1,5 +1,4 @@
 import { Light } from "@mui/icons-material";
-import { purple } from "@mui/material/colors";
 import { createTheme } from "@mui/material/styles";
 
 const getTheme = (mode = "light", dir = "ltr") =>

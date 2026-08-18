@@ -511,7 +511,7 @@ export default function GoalList() {
               <Box
                 sx={{
                   mt: 0.5,
-                  height: 10,
+                  // height: 10,
                   height: {xs:4, sm:10},
                   borderRadius: 5,
                   backgroundColor: "#e5e7eb",

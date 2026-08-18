@@ -150,7 +150,7 @@ export default function Dashboard() {
             sx={{
               width: "100%",
               m: 0,
-              px: 0,
+              // px: 0,
               px: { xs: 0, sm: 0 }
             }}
 

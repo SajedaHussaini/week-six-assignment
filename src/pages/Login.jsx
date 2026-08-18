@@ -45,7 +45,7 @@ export default function Login() {
     handleSubmit,
     formState: { errors },
     reset,
-    trigger
+    // trigger
   } = useForm({
     resolver: yupResolver(schema),
     mode: "onTouched",
@@ -225,7 +225,7 @@ export default function Login() {
             variant="contained"
             fullWidth
             type="submit"
-            sx={{ mt: 2, py: 1.2, py: { xs: 0.8, sm: 1.2 }, borderRadius: 6, fontSize: { xs: 13, sm: 14 } }}
+            sx={{ mt: 2, py: { xs: 0.8, sm: 1.2 }, borderRadius: 6, fontSize: { xs: 13, sm: 14 } }}
           >
             {t("loginToDashboard") || ("loginToDashboard")}
           </Button>
